@@ -43,7 +43,7 @@
     
 }
 
-@media screen and (min-width: 1200px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px){
     .place__paragraph {
         display: block;
         margin: 43px 0 0;
