@@ -1,0 +1,45 @@
+.intro__text {
+    max-width: 690px;
+    width: 100%;
+    font-family: Inter-Regular;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #fff;
+    margin: 40px 0 0;
+}
+
+@media screen and (min-width: 767px){
+    .intro__text {
+        max-width: 690px;
+        width: 100%;
+        font-family: Inter-Regular;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #fff;
+        margin: 21px 0 0;
+    }   
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1200px) {
+    .intro__text {
+        max-width: 690px;
+        width: 100%;
+        font-family: Inter-Regular;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #fff;
+        margin: 40px 0 0;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1280px) {
+    .intro__text {
+        max-width: 690px;
+        width: 100%;
+        font-family: Inter-Regular;
+        font-size: 16px;
+        line-height: 1.63;
+        color: #fff;
+        margin: 40px 0 0;
+    }
+}

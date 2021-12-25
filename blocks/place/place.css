@@ -1,0 +1,81 @@
+.place {
+    display: grid;
+    width: 100%;
+    grid-template-areas: "head  link"
+                         "image paragraph";
+    grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+    column-gap: 40px;
+    max-height: 660px;
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 766px) {
+    .place{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-height: none;
+        margin-top: 67px;
+        align-items: stretch;
+    }
+    .place:first-child{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-height: none;
+        margin-top: 50px;
+        align-items: stretch;
+
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place {
+        display: grid;
+        width: 100%;
+        grid-template-areas: "head  link"
+                             "image paragraph";
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+        column-gap: 28px;
+        max-height: 581px;
+        margin-top: 73px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .place {
+        display: grid;
+        width: 100%;
+        grid-template-areas: "head  link"
+                             "image paragraph";
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+        column-gap: 32px;
+        
+        margin-top: 80px;
+    }
+    .place:first-child {
+        display: grid;
+        width: 100%;
+        grid-template-areas: "head  link"
+                             "image paragraph";
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+        column-gap: 32px;
+        
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width:1279px) and (max-width: 1280px) {
+    .place {
+        display: grid;
+        width: 100%;
+        grid-template-areas: "head  link"
+                             "image paragraph";
+        grid-template-columns: minmax(340px, 460px) minmax(352px, 484px);
+        column-gap: 40px;
+        max-height: 660px;
+        margin-top: 80px;
+    }
+    
+}

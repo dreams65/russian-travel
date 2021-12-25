@@ -1,0 +1,91 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-decoration: none;
+    height: 740px;
+}
+
+.cover__link:hover::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 44, 47, .8);
+    z-index: 1;
+    transition: .3s;
+} 
+
+@media screen and (max-width: 766px) {
+    .cover__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-decoration: none;
+        height: 200px;
+    }
+    
+    .cover__link:hover::after{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(42, 44, 47, .8);
+        z-index: 1;
+        transition: .3s;
+    } 
+    
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-decoration: none;
+        height: 480px;
+    }
+    
+    .cover__link:hover::after{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(42, 44, 47, .8);
+        z-index: 1;
+        transition: .3s;
+    } 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover__link {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-decoration: none;
+        height: 640px;
+    }
+    
+    .cover__link:hover::after{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(42, 44, 47, .8);
+        z-index: 1;
+        transition: .3s;
+    } 
+}
