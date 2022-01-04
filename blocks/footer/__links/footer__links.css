@@ -7,12 +7,10 @@
 
 @media screen and (max-width: 767px) {
     .footer__links {
-        list-style: none;
-        padding: 0;
         display: flex;
         flex-direction: column;
         height: 242px;
         justify-content: space-between;
-        margin: 0;
+       
     }
 }

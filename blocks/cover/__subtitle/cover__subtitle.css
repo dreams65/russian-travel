@@ -3,7 +3,8 @@
     max-width: 360px;
     width: 100%;
     color: #fff;
-    font-family: Inter-Regular;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 400;
     font-size: 18px;
     line-height: 1.3;
     z-index: 3;
@@ -13,15 +14,8 @@
 
 @media screen and (max-width: 767px) {
     .cover__subtitle {
-        text-align: center;
-        max-width: 288px;
-        width: 100%;
-        color: #fff;
-        font-family: Inter-Regular;
+        width: 80%;
         font-size: 14px;
-        line-height: 1.3;
-        z-index: 3;
         margin: 16px 0 0;
-        text-decoration: none;
     }
 }

@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Inter-Regular';
+    font-family: 'Inter';
     font-style:  normal;
     font-weight: 400;
     font-display: swap;
@@ -9,16 +9,16 @@
 }
 
 @font-face {
-    font-family: 'Inter-Bold';
+    font-family: 'Inter';
     font-style:  normal;
-    font-weight: 600;
+    font-weight: 700;
     font-display: swap;
     src: url("../founts/Inter-Bold.woff2") format("woff2"),
          url("../founts/Inter-Bold.woff") format("woff");
 }
 
 @font-face {
-    font-family: 'Inter-Black';
+    font-family: 'Inter';
     font-style:  normal;
     font-weight: 900;
     font-display: swap;
