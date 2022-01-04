@@ -1,6 +1,6 @@
 .page {
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
@@ -8,6 +8,5 @@
     text-rendering: optimizeLegibility;
     background-color: #2A2C2F;
     overflow-x: hidden;
-    margin: 0;
     box-sizing: border-box;
 }
