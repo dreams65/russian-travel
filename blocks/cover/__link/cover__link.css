@@ -5,7 +5,7 @@
     align-items: center;
     position: relative;
     text-decoration: none;
-    height: 740px;
+    min-height: 740px;
 }
 
 .cover__link:hover::after{
@@ -21,18 +21,18 @@
 
 @media screen and (max-width: 766px) {
     .cover__link {
-        height: 200px;
+        min-height: 200px;
     } 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .cover__link {
-        height: 480px;
+        min-height: 480px;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .cover__link {
-        height: 640px;
+        min-height: 640px;
     }
 }

@@ -29,4 +29,7 @@
         line-height: 26.08px;
         margin: 28px 0 0;
     }
+    .place__paragraph:nth-child(2){
+        margin: 25px 0 0;
+    }
 }

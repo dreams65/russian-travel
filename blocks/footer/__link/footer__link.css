@@ -9,7 +9,7 @@
 }
 
 .footer__link:hover {
-    color: rgba(185, 185, 185, 0.486);
+    color: rgba(185, 185, 185, 0.8);
     transition: .3s;
 }
 
