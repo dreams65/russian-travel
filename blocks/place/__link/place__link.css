@@ -10,5 +10,5 @@
 
 .place__link:hover {
     color: rgba(225, 225, 225, .8);
-    transition: .3s
+    transition: .3s;
 }
